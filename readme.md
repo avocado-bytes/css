@@ -13,6 +13,20 @@
 ## ANIMATION
 * @keyframes
 
+## class naming convention
+* **BEM**
+  <br>Block Element Modifier
+  <br>*Block* is a logical section of the webpage such as navigation, user detail, item information
+  <br>*Element* is a functional sction of the webpage, such as button, banner, menu etc.
+  <br>*Modifier* is a modification of an element or of a block such as button - round, menu - dropdown etc.
+  <br>*Block* and *Element* are separated using double underscore
+  <br>*Element* and *Modifier* are separated using double hyphen
+
+            .user-detail__title {}
+            .user-detail__button {}
+            .user-detail__button--submit {}
+            .user-detail__button--cancel {}
+
 ## Good Practices
 * **Don't set root font size in absolute units**
     <br>This will prevent the user's browser settings, and i.e. visually
